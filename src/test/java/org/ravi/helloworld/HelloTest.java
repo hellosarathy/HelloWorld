@@ -14,25 +14,26 @@ import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 
 public class HelloTest {
-	/*
+	
 	WebDriver driver;
 	WebElement text;
 	@BeforeTest
 	public void beforeTest() {
-	System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
+	/*
+		System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
 		driver = new FirefoxDriver();
 		System.setProperty("webdriver.chrome.driver","resources\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://localhost:8080/Helloworld.war/");
-		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);
+		driver.manage().timeouts().implicitlyWait(1, TimeUnit.MINUTES);*/
 	}
 
 	@Test
 	public void f() {
 
-		text = driver.findElement(By.xpath("html/body/h2"));
+		/*text = driver.findElement(By.xpath("html/body/h2"));
 		Assert.assertEquals(driver.getTitle(), "");
-		System.out.println("Test Passed");
+		System.out.println("Test Passed");*/
 
 	}
 
@@ -40,6 +41,6 @@ public class HelloTest {
 	public void afterTest() {
 		//driver.close();
 	}
-	*/
+	
 
 }
